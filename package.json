@@ -1,0 +1,30 @@
+{
+  "name": "task-tracker-express",
+  "version": "1.0.0",
+  "description": "Trello clone",
+  "homepage": "https://github.com/sdiana2001/task-tracker-express#readme",
+  "bugs": {
+    "url": "https://github.com/sdiana2001/task-tracker-express/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdiana2001/task-tracker-express.git"
+  },
+  "license": "ISC",
+  "author": "Sogdiana",
+  "type": "commonjs",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index",
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.4",
+    "typescript": "^6.0.3"
+  }
+}
